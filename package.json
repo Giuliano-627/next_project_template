@@ -1,0 +1,45 @@
+{
+	"name": "electronic_tools",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "prettier --check . && stylelint --allow-empty-input \"**/*.{css,scss}\" && next build",
+		"start": "next start",
+		"lint": "prettier --check . && stylelint --allow-empty-input \"**/*.{css,scss}\" && next lint",
+		"format": "prettier . --check",
+		"format:fix": "prettier . --write"
+	},
+	"dependencies": {
+		"@types/node": "20.4.4",
+		"@types/react": "18.2.16",
+		"@types/react-dom": "18.2.7",
+		"autoprefixer": "10.4.14",
+		"eslint": "8.45.0",
+		"eslint-config-next": "13.4.12",
+		"js-cookie": "^3.0.5",
+		"next": "13.4.12",
+		"nextjs-toploader": "^1.6.6",
+		"postcss": "8.4.27",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-icons": "^5.2.1",
+		"typescript": "5.1.6"
+	},
+	"devDependencies": {
+		"@svgr/webpack": "^8.0.1",
+		"@types/js-cookie": "^3.0.5",
+		"@typescript-eslint/eslint-plugin": "^5.62.0",
+		"@typescript-eslint/parser": "^5.0.0",
+		"eslint-config-prettier": "^8.9.0",
+		"eslint-plugin-storybook": "^0.6.13",
+		"lint-staged": "^13.2.3",
+		"prettier": "3.0.0",
+		"prettier-plugin-organize-imports": "^3.2.3",
+		"stylelint": "^15.10.2",
+		"stylelint-config-idiomatic-order": "^9.0.0",
+		"stylelint-config-prettier-scss": "^1.0.0",
+		"stylelint-config-standard": "^34.0.0",
+		"stylelint-config-standard-scss": "^10.0.0"
+	}
+}
