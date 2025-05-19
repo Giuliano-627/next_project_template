@@ -7,6 +7,7 @@
 .env
 
 pnpm-lock.yaml
+package-lock.json
 
 # testing
 /coverage
@@ -37,7 +38,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.package-lock.json
 
 .env
 
